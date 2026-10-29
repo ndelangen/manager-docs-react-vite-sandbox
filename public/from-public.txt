@@ -1,0 +1,1 @@
+from Vite's public directory

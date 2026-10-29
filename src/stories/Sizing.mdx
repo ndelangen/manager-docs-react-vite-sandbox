@@ -1,0 +1,23 @@
+import * as SB from '@storybook/experimental-addon-manager-docs/mdx';
+import * as ButtonStories from './Button.stories';
+import { Callout } from './Callout';
+
+# Frame sizing
+
+`height` and `ratio` cannot be combined. Use one size per story frame.
+
+<Callout tone="warning">
+height auto grows with content. A pixel height is fixed. ratio keeps the aspect as the frame width changes.
+</Callout>
+
+## Auto height
+
+<SB.Story of={ButtonStories.Primary} />
+
+## 240px
+
+<SB.Story of={ButtonStories.Secondary} height="240" />
+
+## 4:3
+
+<SB.Story of={ButtonStories.Large} ratio="4/3" />

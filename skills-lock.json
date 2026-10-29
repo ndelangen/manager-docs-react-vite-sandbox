@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "stories": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-alpha.6",
+      "sourceType": "github",
+      "skillPath": "skills/stories/SKILL.md",
+      "computedHash": "9b7e8751f6ceba30d7e83f078c6ad4a35b958f95f1b4cbcf840f479496602439"
+    },
+    "storybook-init": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-alpha.6",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-init/SKILL.md",
+      "computedHash": "00ea07350bf638e0f54c09b46490252fa4d190e3790e6cf2bb674d217e2b1694"
+    },
+    "storybook-setup": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-alpha.6",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-setup/SKILL.md",
+      "computedHash": "a85f564bbcacc862e1e302eabc5d3519e466e4f86eaddf7ec8e58f784f51aeb6"
+    },
+    "storybook-upgrade": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-alpha.6",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-upgrade/SKILL.md",
+      "computedHash": "c327a9171dee8637df4cc62b015f4584f6b1a9dc6b49efde69d0300a6a131fe1"
+    }
+  }
+}

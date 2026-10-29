@@ -1,0 +1,43 @@
+import * as SB from '@storybook/experimental-addon-manager-docs/mdx';
+import * as ButtonStories from './Button.stories';
+import { Callout } from './Callout';
+
+# Manager docs
+
+This sandbox is a minimal React + Vite project for `@storybook/experimental-addon-manager-docs`. The article renders in the manager. Each story is its own preview iframe.
+
+<Callout tone="info">
+This Callout is a custom component block. It mounts in a shadow root, not in the preview iframe.
+</Callout>
+
+## Actions
+
+Click the button. The **actions** panel on this instance records `onClick`.
+
+<SB.Story of={ButtonStories.Primary} panel={['actions']} />
+
+## Play function
+
+This story has a play function that clicks the button when the iframe is ready.
+
+<SB.Story of={ButtonStories.Clicked} panel={['actions', 'interactions']} />
+
+## Viewport
+
+The toolbar on this frame is scoped to this iframe. Switch viewports here without changing the other stories.
+
+<SB.Story of={ButtonStories.Mobile} />
+
+## Sizing
+
+Omitted `height` (or `height="auto"`) grows with the story.
+
+<SB.Story of={ButtonStories.Secondary} height="auto" />
+
+Fixed pixel height:
+
+<SB.Story of={ButtonStories.Primary} height="480" />
+
+16:9 frame:
+
+<SB.Story of={ButtonStories.Large} ratio="16/9" />
