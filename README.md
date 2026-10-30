@@ -17,6 +17,9 @@ Docs pages:
 
 - http://127.0.0.1:6008/?path=/docs/stories-button--docs
 - http://127.0.0.1:6008/?path=/docs/stories-sizing--docs
+- http://127.0.0.1:6008/?path=/docs/stories-scale6--docs
+- http://127.0.0.1:6008/?path=/docs/stories-scale12--docs
+- http://127.0.0.1:6008/?path=/docs/stories-scale24--docs
 
 Do not use ports 6011 or 6012.
 
